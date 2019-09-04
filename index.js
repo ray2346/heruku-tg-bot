@@ -1,7 +1,7 @@
 pip install pytelegrambotapi
 
 import telebot;
-bot = telebot.TeleBot('%ваш токен%');
+bot = telebot.TeleBot('882468554:AAH_8_eE4dATkcsVygNY0FuSPqVGMd4Q1Oc');
 //Теперь объявим метод для получения текстовых сообщений:
 
 @bot.message_handler(content_types=['text'])
