@@ -1,19 +1,12 @@
-pip install pytelegrambotapi
+const TelegramBot = require('node-telegram-bot-api')
+const TOKEN = '882468554:AAH_8_eE4dATkcsVygNY0FuSPqVGMd4Q1Oc'
+//C:\Users\Хозяина\WebstormProjects\heruku_bot9
+const bot = new TelegramBot (TOKEN, {polling: true} )
 
-import telebot;
-bot = telebot.TeleBot('882468554:AAH_8_eE4dATkcsVygNY0FuSPqVGMd4Q1Oc');
-//Теперь объявим метод для получения текстовых сообщений:
 
-@bot.message_handler(content_types=['text'])
-def get_text_messages(message):
+bot.on('message', msg =>
+{bot.sendMessage (msg.chat.id, 'helloy epta yeba)))')})
 
-@bot.message_handler(content_types=['text', 'document', 'audio'])
-
-if message.text == "Привет":
-    bot.send_message(message.from_user.id, "Привет, чем я могу тебе помочь?")
-elif message.text == "/help":
-    bot.send_message(message.from_user.id, "Напиши привет")
-else:
-    bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
-bot.polling(none_stop=True, interval=0)
-python bot.py
+if (message.text == "Привет")
+bot.send_message(message.from_user.id, "Привет, чем я могу тебе помочь?")
+elif (message.text == "/help")
