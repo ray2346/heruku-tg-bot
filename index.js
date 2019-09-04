@@ -7,6 +7,3 @@ const bot = new TelegramBot (TOKEN, {polling: true} )
 bot.on('message', msg =>
 {bot.sendMessage (msg.chat.id, 'helloy epta yeba)))')})
 
-if (message.text == "Привет")
-bot.send_message(message.from_user.id, "Привет, чем я могу тебе помочь?")
-elif (message.text == "/help")
