@@ -5,8 +5,8 @@ const bot = new TelegramBot (TOKEN, {polling: true} )
 
 
 
-    bot.on('message', msg =>
-    {bot.sendMessage (msg.chat.id, 'helloy epta yeba)))/start11')})
-var id=msg.from.id
-    if(msg.text=="/start11"){
-    bot.sendMessage(msg.chat.id, 'helloy epta yetart11')}
+bot.on('message', msg =>
+{bot.sendMessage (msg.chat.id, 'helloy epta yeba)))/start11')})
+
+if(msg.text=="/start11"){
+    bot.sendMessage(msg.chat.id, 'helloy epta yeba)))/start11')}
