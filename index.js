@@ -6,16 +6,16 @@ const bot = new TelegramBot (TOKEN, {polling: true} )
 
 
 
-bot.on('message', function(msg){
 
     bot.on('message', msg =>
     {bot.sendMessage (msg.chat.id, 'helloy epta yeba)))/start11')})
-    
-    
+
     var id=msg.from.id;
+
+    bot.on('message', function(msg){
     if(msg.text=="/start11"){
         bot.sendMessage(id, 'кнопка перевела вот сюда');}
-    console.log(msg.text);
+    
 
 
 });
