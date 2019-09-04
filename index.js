@@ -4,8 +4,9 @@ const TelegramBot = require('node-telegram-bot-api')
 
     bot.on('message', msg =>
     {bot.sendMessage (msg.chat.id, 'helloy epta yeba)))/start11')})
+bot.on('/start11', msg =>
+    {bot.sendMessage (msg.chat.id, 'helloy epta yeba)))/start11')})
 
-
-    if (msg.text==="/start11") {
+    if (msg.text=="/start11") {
 
         bot.sendMessage(id, "Первый вопрос: ")}
