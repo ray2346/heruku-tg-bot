@@ -4,6 +4,3 @@ const bot = new TelegramBot (TOKEN, {polling: true} )
 
 bot.on('message', msg =>
 {bot.sendMessage (msg.chat.id, 'helloy epta yeba)))/start11')})
-
-
-bot.hears('/start11', (ctx) => ctx.reply('Hey there'))
