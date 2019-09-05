@@ -5,7 +5,30 @@ var botOptions = {
     polling: true
 };
 var bot = new TelegramBot(token, botOptions);
+
+
+bot.on('text', function(msg)
+{
+    var messageChatId = msg.chat.id;
+    var messageText = msg.text;
+    var messageDate = msg.date;
+    var messageUsr = msg.from.username;
  
+    if (messageText === '/say1') {
+        sendMessageByBot(messageChatId, 'Hello World8784у4у87!');
+    }
+ 
+    console.log(msg);
+});
+ 
+function sendMessageByBot(aChatId, aMessage)
+{
+    bot.sendMessage(aChatId, aMessage, { caption: 'I\'m a cute bot!' });
+}
+
+
+
+
 bot.getMe().then(function(me)
 {
     console.log('Hello! My name is %s!', me.first_name);
