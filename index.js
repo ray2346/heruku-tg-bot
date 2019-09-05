@@ -18,7 +18,7 @@ bot.on('text', function(msg)
     var messageUsr = msg.from.username;
  
     if (messageText === '/start') {
-        sendMessageByBot(messageChatId, "Hello World / Hello World!/say2");
+        sendMessageByBot(messageChatId, "Hello World \ Hello World!/say2");
     }
  
     console.log(msg);
