@@ -14,8 +14,4 @@ bot.on('text', function(msg)
  
     console.log(msg);
 });
- 
-function sendMessageByBot(aChatId, aMessage)
-{
-    bot.sendMessage(aChatId, aMessage, { caption: 'I\'m a cute bot!' });
-}
+
