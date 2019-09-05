@@ -42,7 +42,6 @@ bot.on('text', function(msg)
     var messageDate = msg.date;
     var messageUsr = msg.from.username;
  
- var multistring = msg.chat.id;
  
  
     if (messageText === '/say2') {
