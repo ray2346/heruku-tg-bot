@@ -28,6 +28,8 @@ function sendMessageByBot(aChatId, aMessage)
 {
     bot.sendMessage(aChatId, aMessage, { caption: 'I\'m a cute bot!' });
 }
+var bot = new TelegramBot(token, botOptions);
+ 
 bot.getMe().then(function(me)
 {
     console.log('Hello! My name is %s!', me.first_name);
@@ -42,10 +44,8 @@ bot.on('text', function(msg)
     var messageDate = msg.date;
     var messageUsr = msg.from.username;
  
- 
- 
     if (messageText === '/say2') {
-        sendMessageByBot(messageChatId, 'Эта';);
+        sendMessageByBot(messageChatId, 'Hello World!'+'Hello World!');
     }
  
     console.log(msg);
