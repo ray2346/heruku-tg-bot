@@ -46,7 +46,7 @@ bot.on('text', function(msg)
  
  
     if (messageText === '/say2') {
-        sendMessageByBot(messageChatId, 'Hello World'+'Hello World'+'Hello World'+'Hello World! все  работаем'+"Эта\
+        sendMessageByBot(messageChatId, "Эта\
 строка\
 \
 является\
