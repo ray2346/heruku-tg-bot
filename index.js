@@ -5,15 +5,9 @@ var botOptions = {
     polling: true
 };
 var bot = new TelegramBot(token, botOptions);
-sendMessageByBot(messageChatId, 'Hello World!1151584')
  
 bot.getMe().then(function(me)
-{
-    console.log('Hello! My name is %s!', me.first_name);
-    console.log('My id is %s.', me.id);
-    console.log('And my username is @%s.', me.username);
-});
- 
+
 bot.on('text', function(msg)
 {
     var messageChatId = msg.chat.id;
