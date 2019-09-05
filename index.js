@@ -1,9 +1,10 @@
 var TelegramBot = require('node-telegram-bot-api');
 var token = '882468554:AAH_8_eE4dATkcsVygNY0FuSPqVGMd4Q1Oc';
-var botOptions = { polling: true};
+var botOptions = {
+    polling: true
+};
 var bot = new TelegramBot(token, botOptions);
-var messageText = msg.text;
-
+ 
 bot.getMe().then(function(me)
 {
     console.log('Hello! My name is %s!', me.first_name);
