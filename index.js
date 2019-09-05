@@ -45,12 +45,7 @@ bot.on('text', function(msg)
  
  
     if (messageText === '/say2') {
-        sendMessageByBot(messageChatId, "Эта\
-строка\
-\
-является\
-\
-многострочной";);
+        sendMessageByBot(messageChatId, 'Эта';);
     }
  
     console.log(msg);
