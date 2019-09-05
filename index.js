@@ -17,7 +17,7 @@ bot.on('text', function(msg)
     var messageDate = msg.date;
     var messageUsr = msg.from.username;
  
-    if (messageText === '/say') {
+    if (messageText === '/start') {
         sendMessageByBot(messageChatId, "Hello World / Hello World!/say2");
     }
  
