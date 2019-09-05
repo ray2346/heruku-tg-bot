@@ -5,6 +5,7 @@ var botOptions = {
     polling: true
 };
 var bot = new TelegramBot(token, botOptions);
+sendMessageByBot(messageChatId, 'Hello World!1151584')
  
 bot.getMe().then(function(me)
 {
