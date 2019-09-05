@@ -6,11 +6,6 @@ bot.on('message', msg =>
 {bot.sendMessage (msg.chat.id, 'helloy epta yeba)))/say')})
 bot.on('text', function(msg)
 {
-    var messageChatId = msg.chat.id;
-    var messageText = msg.text;
-    var messageDate = msg.date;
-    var messageUsr = msg.from.username;
- 
     if (messageText === '/say') {
         sendMessageByBot(messageChatId, 'Hello World!');
     }
