@@ -18,7 +18,7 @@ bot.on('text', function(msg)
     var messageUsr = msg.from.username;
  
     if (messageText === '/say') {
-        sendMessageByBot(messageChatId, Hello World\Hello World!/say2');
+        sendMessageByBot(messageChatId, "Hello World / Hello World!/say2");
     }
  
     console.log(msg);
@@ -43,7 +43,7 @@ bot.on('text', function(msg)
     var messageUsr = msg.from.username;
  
     if (messageText === '/say2') {
-        sendMessageByBot(messageChatId, 'Hello World!все работаем');
+        sendMessageByBot(messageChatId, "Hello World / Hello World! все  работаем ");
     }
  
     console.log(msg);
