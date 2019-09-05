@@ -42,8 +42,16 @@ bot.on('text', function(msg)
     var messageDate = msg.date;
     var messageUsr = msg.from.username;
  
+ var multistring = msg.text;
+ 
+ 
     if (messageText === '/say2') {
-        sendMessageByBot(messageChatId, 'Hello World'+'Hello World! все  работаем');
+        sendMessageByBot(messageChatId, 'Hello World'+'Hello World'+'Hello World'+'Hello World! все  работаем'+"Эта\
+строка\
+\
+является\
+\
+многострочной";);
     }
  
     console.log(msg);
