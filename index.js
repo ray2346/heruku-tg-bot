@@ -9,18 +9,7 @@ bot.on('text', function(msg)
  var messageText = msg.text;
   
     if (messageText === '/start') 
-    {sendMessageByBot(messageChatId, " Москва нажмите  /city1 " + '\n' + "-----------------");}});
-
-
-bot.on('text', function(msg)
-{  
- var messageChatId = msg.chat.id;
- var messageText = msg.text;
-  
-    if (messageText === '/city2') 
-    {sendMessageByBot(messageChatId, " Санкт-Петербург нажмите  /city2 " + '\n' + "-----------------");}});
-
-
+    {sendMessageByBot(messageChatId, " Москва нажмите  /city1 "+ '\n' + "-----------------" + '\n' + " Санкт-Петербург нажмите  /city2 " + '\n' + "-----------------");}});
 
 
 bot.on('text', function(msg)
