@@ -19,5 +19,9 @@ bot.on('text', function(msg)
     if (messageText === '/say2') 
     {sendMessageByBot(messageChatId, "4 Первая строчка" + '\n' + "Вторая строчка");}});
 
+function sendMessageByBot(aChatId, aMessage)
+{
+    bot.sendMessage(aChatId, aMessage, { caption: 'I\'m a cute bot!' });
+}
 
 
