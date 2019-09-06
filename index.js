@@ -9,15 +9,29 @@ bot.on('text', function(msg)
  var messageText = msg.text;
   
     if (messageText === '/start') 
-    {sendMessageByBot(messageChatId, "3 Первая строчка" + '\n' + "Вторая строчка  /say2 ");}});
+    {sendMessageByBot(messageChatId, " Москва нажмите  /city1 " + '\n' + "-----");}});
 
 bot.on('text', function(msg)
 {
  var messageChatId = msg.chat.id;
  var messageText = msg.text;
   
-    if (messageText === '/say2') 
-    {sendMessageByBot(messageChatId, "4 Первая строчка" + '\n' + "Вторая строчка");}});
+    if (messageText === '/city1') 
+    {sendMessageByBot(messageChatId, "Город" + '\n' + "Москва"+ '\n' + "СК 0.5 (Alpha PVP) Синий крис."+ '\n' + "Цена: 1300руб."+ '\n' + "Нажмите /pay1");}});
+
+
+bot.on('text', function(msg)
+{
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
+    if (messageText === '/pay1') 
+    {sendMessageByBot(messageChatId, "Город: Москва" + '\n' + "Товар: СК 0.5 (Alpha PVP) Синий крис."+ '\n' + "Метод оплаты: Qiwi "+ '\n' + "Цена: 1300руб."+ '\n' + "+79315929891");}});
+
+
+
+
+
 
 function sendMessageByBot(aChatId, aMessage)
 {
