@@ -25,3 +25,9 @@ var messageChatId = msg.chat.id;
   
 });
 
+
+function sendMessageByBot(aChatId, aMessage)
+{
+    bot.sendMessage(aChatId, aMessage, { caption: 'I\'m a cute bot!' });
+}
+
