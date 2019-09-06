@@ -21,7 +21,7 @@ var messageChatId = msg.chat.id;
   
     if (messageText === '/say2') 
     {sendMessageByBot(messageChatId, "4 Первая строчка" + '\n' + "Вторая строчка");}
-     console.log(msg);
+    
   
 });
 
