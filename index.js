@@ -6,7 +6,7 @@ var bot = new TelegramBot(token, botOptions);
 bot.on('text', function(msg)
 {
    
-var messageChatId = msg.chat.id;
+ var messageChatId = msg.chat.id;
  var messageText = msg.text;
   
     if (messageText === '/start') 
@@ -16,8 +16,6 @@ var messageChatId = msg.chat.id;
 });
  bot.on('text', function(msg)
 {
-  var messageChatId = msg.chat.id;
- var messageText = msg.text;
   
     if (messageText === '/say2') 
     {sendMessageByBot(messageChatId, "4 Первая строчка" + '\n' + "Вторая строчка");}
