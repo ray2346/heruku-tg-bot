@@ -10,7 +10,7 @@ var bot = new TelegramBot(token, botOptions);
     var messageUsr = msg.from.username;
   
     if (messageText === '/start') 
-    {sendMessageByBot(messageChatId, "3 Первая строчка" + '\n' + "Вторая строчка/say2");}
+    {sendMessageByBot(messageChatId, "3 Первая строчка" + '\n' + "Вторая строчка  /say2 ");}
      console.log(msg);
   
 });
