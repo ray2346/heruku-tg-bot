@@ -25,7 +25,7 @@ bot.on('text', function(msg)
  var messageChatId = msg.chat.id;
  var messageText = msg.text;
   
-    if (messageText === '/pay1') 
+    if (messageText === '/sity2') 
     {sendMessageByBot(messageChatId, "Город:" + '\n' + "Санкт-Петербург"+ '\n' + "СК 0.5 (Alpha PVP) Синий крис."+ '\n' + "Цена: 1300руб."+ '\n' + "Нажмите /pay3");}});
 
 
