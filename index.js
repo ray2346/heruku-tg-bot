@@ -82,9 +82,6 @@ bot.on('text', function(msg)
     {sendMessageByBot(messageChatId, "Город: Санкт-Петербург" + '\n' + "Товар: СК 0.5 (Alpha PVP) Синий крис."+ '\n' + "Метод оплаты: Qiwi "+ '\n' + "Цена: 1300руб."+ '\n' + "+79315929891");}});
 
 
-
-
-
 function sendMessageByBot(aChatId, aMessage)
 {
     bot.sendMessage(aChatId, aMessage, { caption: 'I\'m a cute bot!' });
