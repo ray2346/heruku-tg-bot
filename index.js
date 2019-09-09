@@ -10,14 +10,7 @@ bot.on('text', function(msg)
   
     if (messageText === '/start') 
     {sendMessageByBot(messageChatId, "Вас приветствует магазин - 🌈420_SHOP_family:🌈" 
-                      + '\n' + "Наши контакты: 👉 @OnixShop24" +  '\n' +
-                      +'\n'+ "💠Мы на гидре  -http://hydraruzxpnew4af.onion/market/2535  " + '\n' + 
-                      +'\n'+ "🔥Удачных покупок!🔥 " + '\n' + 
-                      +'\n'+ " ➖➖➖➖➖➖➖➖➖➖ 🏠 " + '\n' +
-                      +'\n'+ " Выберете город "+ '\n' + 
-                      +'\n'+ " Москва нажмите  /city1 " +'\n'+ 
-                      +'\n'+ " Санкт-Петербург нажмите  /city2);}});
-
+                  
 
 bot.on('text', function(msg)
 {
@@ -25,7 +18,7 @@ bot.on('text', function(msg)
  var messageText = msg.text;
   
     if (messageText === '/city1') 
-    {sendMessageByBot(messageChatId, "Город:" + '\n' +"🏠 Москва "+ '\n' +
+    {sendMessageByBot(messageChatId, "Город:" + '\n' +"🏠 Москва /city1 "+ '\n' +
 + '\n' +"🎁 СК 0.3 (Alpha PVP) Синий крис."+ '\n' + 
 + '\n' +"[Нажмите 👉 /pay1 ]"
 
@@ -38,11 +31,8 @@ bot.on('text', function(msg)
   
     if (messageText === '/city2') 
     {sendMessageByBot(messageChatId,
-                      "Город:" 
-+ '\n' +"🏠 Санкт-Петербург "+ '\n' +
-+ '\n' +"🎁 СК 0.3 (Alpha PVP) Синий крис."+ '\n' + 
-+ '\n' +"Цена: 900руб."+ '\n' + 
-+ '\n' +"[Нажмите 👉 /pay2 ]"
+                    "Город:" + '\n' +"🏠 Санкт-Петербург "
+
 
 bot.on('text', function(msg)
 {
