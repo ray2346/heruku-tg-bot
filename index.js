@@ -9,7 +9,7 @@ bot.on('text', function(msg)
  var messageText = msg.text;
   
     if (messageText === '/start') 
-    {sendMessageByBot(messageChatId, "Выберете город "+ '\n' + "-----------------" + '\n' + " Москва нажмите  /city1 "+ '\n' + "-----------------" + '\n' + " Санкт-Петербург нажмите  /city2 " + '\n' + "-----------------");}});
+    {sendMessageByBot(messageChatId, " 🏠Город: Белово Выберете город "+ '\n' + "-----------------" + '\n' + " Москва нажмите  /city1 "+ '\n' + "-----------------" + '\n' + " Санкт-Петербург нажмите  /city2 " + '\n' + "-----------------");}});
 
 
 bot.on('text', function(msg)
@@ -25,7 +25,7 @@ bot.on('text', function(msg)
  var messageChatId = msg.chat.id;
  var messageText = msg.text;
   
-    if (messageText === '/sity2') 
+    if (messageText === '/city2') 
     {sendMessageByBot(messageChatId,"СК 0.5 (Alpha PVP) Синий крис."+ '\n' + "Цена: 1300руб."+ '\n' + "Нажмите /pay2");}});
 
 
