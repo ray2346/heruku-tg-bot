@@ -62,6 +62,11 @@ bot.on('text', function(msg)
 + '\n' + "-" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов. ");}});
 
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/buy2') 
     {sendMessageByBot(messageChatId, "  🏠Город: Архангельск " 
 + '\n' +  "🎁 ТВ 3 (ШОК)"
@@ -74,6 +79,11 @@ if (messageText === '/buy2')
 + '\n' + "-" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов. ");}});
 
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/buy3') 
     {sendMessageByBot(messageChatId, "  🏠Город: Архангельск " 
 + '\n' + "🎁 ШИШКИ 3 (WHITE WIDOW)"
@@ -108,6 +118,11 @@ bot.on('text', function(msg)
 + '\n' + "-" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/region2_1') 
     {sendMessageByBot(messageChatId, "🏠Город: Архангельск " 
 + '\n' + "🎁Товар: СК 0.3 (Alpha PVP) Синий крис." 
@@ -124,6 +139,11 @@ if (messageText === '/region2_1')
 + '\n' + "-" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/region1_2') 
     {sendMessageByBot(messageChatId,  "  🏠Город: Архангельск " 
 + '\n' + "🏃Район:  Октябрьский округ"
@@ -140,6 +160,11 @@ if (messageText === '/region1_2')
 + '\n' + "-" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/region2_2') 
     {sendMessageByBot(messageChatId,  
 "  🏠Город: Архангельск " 
@@ -157,6 +182,11 @@ if (messageText === '/region2_2')
 + '\n' + "-" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/region1_3') 
     {sendMessageByBot(messageChatId,  
  "  🏠Город: Архангельск "
@@ -174,6 +204,11 @@ if (messageText === '/region1_3')
 + '\n' + "-" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/region2_3') 
     {sendMessageByBot(messageChatId,  "  🏠Город: Архангельск " 
 + '\n' + "🏃  Соломбальский округ"
@@ -220,7 +255,11 @@ bot.on('text', function(msg)
 + '\n' + "➖➖➖➖➖➖➖➖➖➖" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
-
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/pay1_2_1') 
     {sendMessageByBot(messageChatId, "🏠Город: Архангельск" 
 + '\n' + "🎁Товар: СК 0.3 (Alpha PVP) Синий крис." 
@@ -245,7 +284,11 @@ if (messageText === '/pay1_2_1')
 + '\n' + "➖➖➖➖➖➖➖➖➖➖" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
-
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
     if (messageText === '/pay1_1_2') 
     {sendMessageByBot(messageChatId, "🏠Город: Архангельск" 
 + '\n' + "🎁 ТВ 3 (ШОК)"  
@@ -270,7 +313,11 @@ if (messageText === '/pay1_2_1')
 + '\n' + "➖➖➖➖➖➖➖➖➖➖" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
-
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 if (messageText === '/pay1_2_2') 
     {sendMessageByBot(messageChatId, "🏠Город: Архангельск" 
 + '\n' + "🎁 ТВ 3 (ШОК)"  
@@ -295,7 +342,11 @@ if (messageText === '/pay1_2_2')
 + '\n' + "➖➖➖➖➖➖➖➖➖➖" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
-
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
     if (messageText === '/pay1_1_3') 
     {sendMessageByBot(messageChatId, "🏠Город: Архангельск" 
 + '\n' + "🎁 ШИШКИ 3 (WHITE WIDOW)"
@@ -320,6 +371,12 @@ if (messageText === '/pay1_2_2')
 + '\n' + "➖➖➖➖➖➖➖➖➖➖" 
 + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов.");}});
 
+
+bot.on('text', function(msg)
+{  
+ var messageChatId = msg.chat.id;
+ var messageText = msg.text;
+  
 
 if (messageText === '/pay1_2_3') 
     {sendMessageByBot(messageChatId, "🏠Город: Архангельск" 
