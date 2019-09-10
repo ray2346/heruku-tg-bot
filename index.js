@@ -118,8 +118,8 @@ bot.on('text', function(msg)
  var messageText = msg.text;
   
     if (messageText === '/check_6805') 
-    {sendMessageByBot(messageChatId, "
-+ '\n' + "❌Платеж не найден❌"
+    {sendMessageByBot(messageChatId,
+"❌Платеж не найден❌"
 + '\n' + "Пожалуйста убедитесь что вы:" 
 + '\n' + "➖➖➖➖➖➖➖➖➖➖" 
 + '\n' + "1⃣Действительно оплатили заказ." 
