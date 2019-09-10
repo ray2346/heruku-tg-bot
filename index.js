@@ -88,7 +88,7 @@ bot.on('text', function(msg)
  var messageChatId = msg.chat.id;
  var messageText = msg.text;
   
-    if (messageText === '/pay2') 
+    if (messageText === 'pay1_1') 
     {sendMessageByBot(messageChatId, "🏠Город: Архангельск" 
 + '\n' + "🎁Товар: СК 0.3 (Alpha PVP) Синий крис." 
 + '\n' + "💰Цена: 900руб." 
