@@ -652,7 +652,7 @@ bot.on('text', function(msg)
  var messageChatId = msg.chat.id;
  var messageText = msg.text;
   
-if (messageText === '/pay2_12_4]') 
+if (messageText === '/pay2_12_4') 
     {sendMessageByBot(messageChatId, "🏠Город: Барнаул" 
 + '\n' + "🎁Товар: СК 0.3 (Alpha PVP) Синий крис." 
 + '\n' + "💰Цена: 900руб." 
