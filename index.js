@@ -965,7 +965,7 @@ bot.on('text', function(msg)
  var messageChatId = msg.chat.id;
  var messageText = msg.text;
   
-if (messageText === '/region1_3_3) 
+if (messageText === '/region1_3_3') 
     {sendMessageByBot(messageChatId,  
 "  🏠Город: Белгород"
 + '\n' + "🏃Район:Западный округ"
