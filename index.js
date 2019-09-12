@@ -2854,7 +2854,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/buy2_3')
+    if (messageText === '/buy2_5')
     {sendMessageByBot(messageChatId, "  🏠Город: Югорск "
         + '\n' + "🎁 АМФ HQ 2г"
         + '\n' + "Цена: 1299руб."
