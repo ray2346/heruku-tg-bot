@@ -3320,7 +3320,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay1_16_7')
+    if (messageText === '/pay1_16_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
         + '\n' + "🎁Товар: СК 0.5(Alpha PVP) Синий крис."
         + '\n' + "💰Цена: 900руб."
@@ -3349,7 +3349,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay2_16_7')
+    if (messageText === '/pay2_16_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
         + '\n' + "🎁Товар: СК 0.5(Alpha PVP) Синий крис."
         + '\n' + "💰Цена: 900руб."
@@ -3378,7 +3378,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay3_16_7')
+    if (messageText === '/pay3_16_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
         + '\n' + "🎁Товар: СК 0.5(Alpha PVP) Синий крис."
         + '\n' + "💰Цена: 900руб."
@@ -3410,7 +3410,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay1_26_7')
+    if (messageText === '/pay1_26_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
         + '\n' + "🎁 МяуМяу (мука) 1.0"
         + '\n' + "Цена: 1200руб."
@@ -3439,7 +3439,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay2_26_7')
+    if (messageText === '/pay2_26_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
         + '\n' + "🎁 МяуМяу (мука) 1.0"
         + '\n' + "Цена: 1200руб."
@@ -3468,7 +3468,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay3_26_7')
+    if (messageText === '/pay3_26_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
         + '\n' + "🎁 МяуМяу (мука) 1.0"
         + '\n' + "Цена: 1200руб."
@@ -3510,7 +3510,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay1_36_7')
+    if (messageText === '/pay1_36_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
  + '\n' + "🎁 ШИШКИ 3 (WHITE WIDOW) 2.5"
         + '\n' + "Цена: 2900руб."
@@ -3539,7 +3539,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay2_36_7')
+    if (messageText === '/pay2_36_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
  + '\n' + "🎁 ШИШКИ 3 (WHITE WIDOW) 2.5"
         + '\n' + "Цена: 2900руб."
@@ -3568,7 +3568,7 @@ bot.on('text', function(msg)
     var messageChatId = msg.chat.id;
     var messageText = msg.text;
 
-    if (messageText === '/pay3_36_7')
+    if (messageText === '/pay3_36_6')
     {sendMessageByBot(messageChatId, "🏠Город: Красноярск"
  + '\n' + "🎁 ШИШКИ 3 (WHITE WIDOW) 2.5"
         + '\n' + "Цена: 2900руб."
