@@ -3083,7 +3083,12 @@ bot.on('text', function(msg)
         + '\n' + "[Для выбора нажмите 👉 /region3_1_6 ]"
         + '\n' + "-"
         + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов. ");}});
- if (messageText === '/buy2_6')
+bot.on('text', function(msg)
+{
+    var messageChatId = msg.chat.id;
+    var messageText = msg.text; 
+
+if (messageText === '/buy2_6')
     {sendMessageByBot(messageChatId, " 🏠Город:"
         + '\n' + "🏠 Красноярск "
         + '\n' + "🎁 МяуМяу (мука) 1.0"
@@ -3098,7 +3103,13 @@ bot.on('text', function(msg)
         + '\n' + "[Для выбора нажмите 👉 /region3_2_6 ]"
         + '\n' + "-"
         + '\n' + "👉Если Вы выбрали не тот город, отправьте 👉 /start для того, чтобы вернуться к выбору городов. ");}});
- if (messageText === '/buy3_6')
+
+bot.on('text', function(msg)
+{
+    var messageChatId = msg.chat.id;
+    var messageText = msg.text;
+    
+    if (messageText === '/buy3_6')
     {sendMessageByBot(messageChatId, " 🏠Город:"
         + '\n' + "🏠 Красноярск "
         + '\n' + "🎁 ШИШКИ 3 (WHITE WIDOW) 2.5"
