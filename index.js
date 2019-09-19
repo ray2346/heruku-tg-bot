@@ -4671,7 +4671,7 @@ bot.on('text', function(msg)
     var messageText = msg.text;
 
     if (messageText === '/pay2_38_8')
-    {sendMessageByBot(messageChatId, "🏠Город: Новосибирск"
+    {sendMessageByBot(messageChatId, "🏠Город: Новокузнецк"
  + '\n' + "🎁 ШИШКИ 3 (WHITE WIDOW) 2.5"
         + '\n' + "Цена: 2900руб."
         + '\n' + "🏃Район:Заводской"
