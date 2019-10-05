@@ -11,7 +11,7 @@ bot.on('text', function(msg)
     if (messageText === '/start')
         
     {sendMessageByBot(messageChatId,"Вас приветствует магазин - 🌈420 SHOP_family:🌈"
-        <a href=\"https://i9.wampi.ru/2019/10/05/22.jpg\">&#8203;</a>
+        <a href=\https://i9.wampi.ru/2019/10/05/22.jpg\">&#8203;</a>
         + '\n' + "Наши контакты:"
         + '\n' + "Операторы -"
         + '\n' + "👉 @SHARA200  Виктория"
