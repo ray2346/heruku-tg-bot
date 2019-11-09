@@ -1,19 +1,26 @@
 {
   "name": "heruku_bot9",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-   
     "start": "node index.js "
   },
   "engines ": {
     "node": "12.9.1"
-
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.30.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ray2346/heruku-tg-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ray2346/heruku-tg-bot/issues"
+  },
+  "homepage": "https://github.com/ray2346/heruku-tg-bot#readme",
+  "description": ""
 }
