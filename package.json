@@ -16,11 +16,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ray2346/heruku-tg-bot.git"
+    "url": "git+https://github.com/ray2346/heruku-tg222.git"
   },
   "bugs": {
-    "url": "https://github.com/ray2346/heruku-tg-bot/issues"
+    "url": "https://github.com/ray2346/heruku-tg222/issues"
   },
-  "homepage": "https://github.com/ray2346/heruku-tg-bot#readme",
+  "homepage": "https://github.com/ray2346/heruku-tg222#readme",
   "description": ""
 }
